@@ -1,0 +1,83 @@
+# Popups
+setWindowSizeTitle|Bestem vindusstørrelse
+setWindowSizePixelPrompt|Piksel {0} plassering for hjørnet øverst til venstre ({0} koordinat):
+setWindowSizeWidthPrompt|Vindusbredde (i piksler):
+setWindowSizeHeightPrompt|Vindushøyde (i piksler):
+setWindowSizeMouseTitle|Velg område?
+setWindowSizeMousePrompt|Vil du velge området med musepekeren?\r\n\r\n Hvis du svarer nei vil du bli spurt om spesifikt pikselområde.
+adjustWindowBoundsTitle|Justér vindusgrenser
+adjustWindowBoundsPrompt|Pikslerjustering for {0} vinduskanten (0 piksler = ingen justering):
+adjustWindowBoundsLeft|venstre
+adjustWindowBoundsRight|høyre
+adjustWindowBoundsTop|topp
+adjustWindowBoundsBottom|bunn
+settingConfirmationTitle|Bekreft endringene dine
+settingConfirmationPrompt|Du må starte Borderless Gaming på nytt for at endringene skal tre i kraft. Vil du starte på nytt nå?
+setWindowTitleTitle|Bestem vindustittel
+setWindowTitlePrompt|Velg ny vindustitteltekst:
+toggleMouseCursorVisibilityTitle|Skjul musepekeren?
+toggleMouseCursorVisibilityPrompt|Vil du virkelig skjule musepekeren?\r\n\r\nDet kan bli vanskelig å finne den igjen når den er skjult.\r\n\r\nHvis du har skrudd på den globale hurtigtasten for å skjule/vise musepekeren, kan du trykke [Win + Scroll Lock] for å vise musepekeren igjen.\r\n\r\nDu kan også vise musepekeren ved å lukke Borderless Gaming.
+# Options Menu
+toolStripOptions|Innstillinger
+toolStripRunOnStartup|Kjør ved oppstart
+toolStripLanguages|Velg språk
+toolStripCheckForUpdates|Se etter oppdateringer
+toolStripGlobalHotkey|Bruk global hurtigtast
+toolStripMouseLock|Bruk "Lås Mus"-hurtigtast
+toolStripMouseHide|Bruk "Skjul Mus"-hurtigtast
+toolStripMinimizedToTray|Start minimert til oppgavelinjen
+toolStripCloseToTray|Minimer til oppgavelinjen
+toolStripHideBalloonTips|Skjul ballongtips
+toolStripSlowWindowDetection|Bruk tregere vindusgjenkjenning
+toolStripViewFullProcessDetails|Se alle prosessdetaljer
+toolStripRestoreProcesses|Gjennopprett alle skjulte programmer
+# Tools Menu
+toolsToolStripMenuItem|Verktøy
+toolStripPauseAutomaticProcessing|Sett automatisk prosessering på pause
+toolStripOpenDataFolder|Åpne datamappe
+toolStripToggleMouseCursorVisibility|Skjul/vis musepeker
+toolStripToggleWindowsTaskbar|Skjul/vis Windows-oppgavelinjen
+toolStripFullApplicationRefresh|Last inn program på nytt
+toolStripDisableSteamIntegration|Deaktiver Steam-integrering
+# Help Menu
+toolStripInfo|Hjelp
+toolStripUsageGuide|Bruksguide
+toolStripRegexReference|Regex-referanse
+toolStripReportBug|Rapporter bug
+toolStripSupportUs|Støtt oss
+toolStripAbout|Om
+# Process Context Menu
+contextAddToFavs|Legg til favoritter...
+toolStripByTheWindowTitle|... etter vindustitteltekst
+toolStripByRegex|... etter vindustitteltekst (regex)
+toolStripByProcess|... etter prosessbinærnavn
+contextBorderless|Fjern vinduskant
+contextBorderlessOn|Fjern vinduskant på...
+toolStripSetWindowTitle|Set vindustittel
+toolStripHideProcess|Gjem denne prosessen
+# Favorite Context Menu
+toolStripFullScreen|Fullskjerm
+toolStripNoSizeChange|Ikke forandre størrelse
+toolStripSetSetWindowSize|Set vindusstørrelse
+toolStripAutomaximize|Automaksimer
+toolStripAdjustWindowBounds|Justér vindusgrenser
+toolStripAlwaysOnTop|Alltid på topp
+toolStripDelayBorderless|Forsink Borderless Window
+toolStripHideMouseCursor|Skjul musepeker
+toolStripHideWindowsTaskbar|Skjul Windows-oppgavelinjen
+toolStripRemoveMenus|Fjern menyer
+contextFavScreen|Velg favorittskjerm...
+toolStripMuteInBackground|Demp lyd i bakgrunn
+contextRemoveFromFavs|Fjern fra favoritter
+# UI
+superSize|SuperStørrelse!
+processLabel|Programmer:
+favoritesLabel|Favoritter (automatisk):
+statusLabel|Laster inn...
+moreOptionsLabel|Høyreklikk for flere alternativer. Sist oppdatert
+# Tool Tips
+steamHint|Hindrer "In-App" på Steam
+addFavorite|Legger til det valgte programmet til favorittlisten (etter vindustittel).
+removeFavorite|Fjerner det valgte programmet fra favorittlisten.
+makeBorderless|Fjerner vinduskantene til det valgte programmet.
+restoreBorders|Prøver å gjenopprette vinduskanter.
