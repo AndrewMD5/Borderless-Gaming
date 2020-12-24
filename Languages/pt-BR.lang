@@ -1,0 +1,83 @@
+# Popups
+setWindowSizeTitle|Definir Tamanho da Janela
+setWindowSizePixelPrompt|Localização do pixel {0} para o canto superior esquerdo (coordenada {0}):
+setWindowSizeWidthPrompt|Largura da janela (em pixels):
+setWindowSizeHeightPrompt|Altura da janela (em pixels):
+setWindowSizeMouseTitle|Selecionar Área?
+setWindowSizeMousePrompt|Você gostaria de selecionar a área utilizando o seu cursor do mouse?\r\n\r\nSe você responder Não, serão solicitadas dimensões de pixel específicas.
+adjustWindowBoundsTitle|Ajustar Limites da Janela
+adjustWindowBoundsPrompt|Ajuste de pixel para a {0} borda da janela (0 pixels = sem ajuste):
+adjustWindowBoundsLeft|esquerda
+adjustWindowBoundsRight|direita
+adjustWindowBoundsTop|cima
+adjustWindowBoundsBottom|baixo
+settingConfirmationTitle|Confirma Suas Alterações
+settingConfirmationPrompt|Você deve reiniciar o Borderless Gaming para que suas mudanças tenham efeito. Reiniciar agora?
+setWindowTitleTitle|Definir Título da Janela
+setWindowTitlePrompt|Defina o novo texto do título da janela:
+toggleMouseCursorVisibilityTitle|Realmente ocultar o cursor do mouse?
+toggleMouseCursorVisibilityPrompt|Deseja realmente ocultar o cursor do mouse?\r\n\r\nVocê pode ter dificuldade em encontrar o mouse novamente quando ele estiver oculto.\r\n\r\nSe você habilitou a tecla de atalho global para alternar a visibilidade do cursor do mouse, você pode pressionar [Win + Scroll Lock] para ativar o cursor do mouse.\r\n\r\nAlém disso, sair do Borderless Gaming restaurará imediatamente o cursor do mouse.
+# Options Menu
+toolStripOptions|Opções
+toolStripRunOnStartup|Executar na inicialização
+toolStripLanguages|Selecionar Linguagem
+toolStripCheckForUpdates|Verificar se há atualizações
+toolStripGlobalHotkey|Usar Tecla de Atalho Global
+toolStripMouseLock|Usar Tecla de Atalho de Bloqueio do Mouse
+toolStripMouseHide|Usar Tecla de Atalho que Oculta o Mouse
+toolStripMinimizedToTray|Iniciar Minimizado na Bandeja
+toolStripCloseToTray|Fechar Para a Bandeja
+toolStripHideBalloonTips|Ocultar Dicas de Balão
+toolStripSlowWindowDetection|Usar Detecção de Janela Mais Lenta
+toolStripViewFullProcessDetails|Ver Detalhes de Processos Completo
+toolStripRestoreProcesses|Restaurar Todas as Aplicações Ocultas
+# Tools Menu
+toolsToolStripMenuItem|Ferramentas
+toolStripPauseAutomaticProcessing|Pausar o Processamento Automático
+toolStripOpenDataFolder|Abrir Pasta de Dados
+toolStripToggleMouseCursorVisibility|Alternar a Visibilidade do Cursor do Mouse
+toolStripToggleWindowsTaskbar|Alternar a Visibilidade da Barra de Tarefas do Windows
+toolStripFullApplicationRefresh|Atualização Completa do Aplicativo
+toolStripDisableSteamIntegration|Desativar Integração com a Steam
+# Help Menu
+toolStripInfo|Ajuda
+toolStripUsageGuide|Guia de Uso
+toolStripRegexReference|Referência de Regex
+toolStripReportBug|Reportar Erro
+toolStripSupportUs|Apoie-nos
+toolStripAbout|Sobre
+# Process Context Menu
+contextAddToFavs|Adicionar aos Favoritos...
+toolStripByTheWindowTitle|... pelo texto do título da janela
+toolStripByRegex|... pelo texto do título da janela (regex)
+toolStripByProcess|... pelo nome binário do processo
+contextBorderless|Deixar Sem Bordas
+contextBorderlessOn|Sem Bordas Ligado...
+toolStripSetWindowTitle|Definir Título da Janela
+toolStripHideProcess|Ocultar Este Processo
+# Favorite Context Menu
+toolStripFullScreen|Tela Cheia
+toolStripNoSizeChange|Sem Mudança de Tamanho
+toolStripSetSetWindowSize|Definir Tamanho da Janela
+toolStripAutomaximize|Maximizar Automaticamente
+toolStripAdjustWindowBounds|Ajustar Limites da Janela
+toolStripAlwaysOnTop|Sempre no Topo
+toolStripDelayBorderless|Ativar Delay na Janela Sem Bordas
+toolStripHideMouseCursor|Ocultar Cursor do Mouse
+toolStripHideWindowsTaskbar|Ocultar Janelas de Barra de Tarefas
+toolStripRemoveMenus|Remover Menus
+contextFavScreen|Selecionar Tela Favorita...
+toolStripMuteInBackground|Mutar quando em Background
+contextRemoveFromFavs|Remover dos Favoritos
+# UI
+superSize|Super Tamanho!
+processLabel|Applicações:
+favoritesLabel|Favoritos (automático):
+statusLabel|Carregando...
+moreOptionsLabel|Clique com o Botão direito para mais opções. Última atualização
+# Tool Tips
+steamHint|Impede "In-App" na Steam
+addFavorite|Adiciona a aplicação atualmente selecionada à sua lista de favoritos (pelo título da janela).
+removeFavorite|Remove o favorito atualmente selecionado da lista.
+makeBorderless|Torna a aplicação atualmente selecionada sem bordas.
+restoreBorders|Tenta restaurar uma janela de volta ao seu estado delimitado.
