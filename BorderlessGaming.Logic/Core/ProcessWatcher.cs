@@ -87,6 +87,25 @@ namespace BorderlessGaming.Logic.Core
             }
         }
 
+        public void ResetMadeBorderless(Favorite fav)
+        {
+            foreach (var pd in Processes)
+            {
+                try
+                {
+                    if (fav.Matches(pd))
+                    {
+                        pd.MadeBorderless = false;
+                        pd.MadeBorderlessAttempts = 0;
+                    }
+                }
+                catch
+                {
+                    // ignored
+                }
+            }
+        }
+
         /// <summary>
         ///     remove the menu, resize the window, remove border, and maximize
         /// </summary>

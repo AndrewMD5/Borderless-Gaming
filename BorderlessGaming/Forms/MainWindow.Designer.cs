@@ -59,6 +59,7 @@ namespace BorderlessGaming.Forms
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripAlwaysOnTop = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripDelayBorderless = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripForceResize = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripHideMouseCursor = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripHideWindowsTaskbar = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripRemoveMenus = new System.Windows.Forms.ToolStripMenuItem();
@@ -258,6 +259,7 @@ namespace BorderlessGaming.Forms
             this.toolStripMenuItem4,
             this.toolStripAlwaysOnTop,
             this.toolStripDelayBorderless,
+            this.toolStripForceResize,
             this.toolStripHideMouseCursor,
             this.toolStripHideWindowsTaskbar,
             this.toolStripRemoveMenus,
@@ -331,6 +333,15 @@ namespace BorderlessGaming.Forms
             this.toolStripDelayBorderless.Name = "toolStripDelayBorderless";
             this.toolStripDelayBorderless.Text = LanguageManager.Data("toolStripDelayBorderless");
             this.toolStripDelayBorderless.Click += new System.EventHandler(this.delayBorderlessToolStripMenuItem_Click);
+            //
+            // toolStripForceResize
+            //
+            resources.ApplyResources(this.toolStripForceResize, "toolStripForceResize");
+            this.toolStripForceResize.Name = "toolStripForceResize";
+            // this.toolStripForceResize.Text = LanguageManager.Data("toolStripForceResize");
+            // TODO Language data
+            this.toolStripForceResize.Text = "Force Resize";
+            this.toolStripForceResize.Click += new System.EventHandler(this.toolStripForceResize_Click);
             // 
             // hideMouseCursorToolStripMenuItem
             // 
@@ -831,6 +842,7 @@ namespace BorderlessGaming.Forms
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem9;
         private System.Windows.Forms.ToolStripMenuItem toolStripAlwaysOnTop;
         private System.Windows.Forms.ToolStripMenuItem toolStripDelayBorderless;
+        private System.Windows.Forms.ToolStripMenuItem toolStripForceResize;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripToggleWindowsTaskbar;
         private System.Windows.Forms.ToolStripMenuItem toolStripSetWindowTitle;

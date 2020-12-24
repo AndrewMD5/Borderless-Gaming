@@ -238,9 +238,9 @@
       $(PostBuildEventDependsOn);
       PostBuildMacros;
     </PostBuildEventDependsOn>
-    <PostBuildEvent>call signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /as /sha1 3BD5BE571287FE2052F137C44198AE7BAB38B037 "$(ProjectDir)$(OutDir)$(TargetFileName)"
-call iscc /Qp "$(SolutionDir)\Installers\BorderlessGaming_Standalone_Admin.iss"
-call signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /as /sha1 3BD5BE571287FE2052F137C44198AE7BAB38B037 "$(SolutionDir)Installers\BorderlessGaming@(VersionNumber)_admin_setup.exe"</PostBuildEvent>
+    <!--<PostBuildEvent>call signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /as /sha1 3BD5BE571287FE2052F137C44198AE7BAB38B037 "$(ProjectDir)$(OutDir)$(TargetFileName)"-->
+<!--call iscc /Qp "$(SolutionDir)\Installers\BorderlessGaming_Standalone_Admin.iss"-->
+<!--call signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /as /sha1 3BD5BE571287FE2052F137C44198AE7BAB38B037 "$(SolutionDir)Installers\BorderlessGaming@(VersionNumber)_admin_setup.exe"</PostBuildEvent>-->
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>copy $(SolutionDir)SteamLibs\* $(ProjectDir)$(OutDir)</PreBuildEvent>

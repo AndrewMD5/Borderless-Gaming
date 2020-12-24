@@ -749,6 +749,11 @@ fav.PositionX.ToString()), out int favPositionX);
             RefreshFavoritesList(fav);
         }
 
+        private void toolStripForceResize_Click(object sender, EventArgs e)
+        {
+            _watcher.ResetMadeBorderless((Favorite) lstFavorites.SelectedItem);
+        }
+
         /// <summary>
         ///     Sets up the Favorite-ContextMenu according to the current state
         /// </summary>

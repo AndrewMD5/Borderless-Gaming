@@ -63,6 +63,7 @@ toolStripAutomaximize|Auto-Maximize
 toolStripAdjustWindowBounds|Adjust Window bounds
 toolStripAlwaysOnTop|Always On Top
 toolStripDelayBorderless|Delay Borderless Window
+toolStripForceResize|Force Resize
 toolStripHideMouseCursor|Hide Mouse Cursor
 toolStripHideWindowsTaskbar|Hide Windows Taskbar
 toolStripRemoveMenus|Remove Menus

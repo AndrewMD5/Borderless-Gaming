@@ -194,6 +194,9 @@
   <data name="toolStripDelayBorderless.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
+  <data name="toolStripForceResize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
   <data name="toolStripHideMouseCursor.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 22</value>
   </data>
