@@ -21,6 +21,10 @@ The project is open source under the [GNU General Public License v2.0](https://g
 
 #### Install from Source
 
+- Make sure you have the required programs for compilation (you won't be able to compile without them):
+  - https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
+  - https://jrsoftware.org/isdl.php
+
 - Clone with repository 
 
 - Open the solution inside Visual Studio 2017
